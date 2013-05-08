@@ -1,0 +1,31 @@
+body {
+    font-family:Verdana, Arial, sans-serif;
+    font-size:14px;
+}
+
+.container {
+    width:600px;
+    margin:48px auto;
+}
+
+h1 {
+    border-bottom:1px solid #92A078;
+    font-family:Georgia, "Times New Roman", serif;
+    font-size:40px;
+    font-weight:normal;
+    text-align:center;
+    padding-bottom:8px;
+    margin-bottom:16px;
+    text-transform:lowercase;
+    a {
+        text-decoration:none;
+        color:#7C8E3F;
+        &:hover {
+            color:#92A078;
+        }
+    }
+}
+
+p {
+    line-height:24px;
+}

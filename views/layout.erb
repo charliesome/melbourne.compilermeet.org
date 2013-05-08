@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>
+    <% if @title %>
+      <%= @title %> &mdash;
+    <% end %>
+    Melbourne Compiler Meetup
+  </title>
+  <link rel="stylesheet" href="<%= style_path %>" />
+</head>
+<body>
+  <div class="container">
+    <h1>
+      <a href="/">Melbourne Compiler Meetup</a>
+    </h1>
+    <%== yield %>
+  </div>
+</body>
+</html>
