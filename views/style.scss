@@ -9,14 +9,21 @@ body {
     margin:48px auto;
 }
 
+h1, h2, p {
+    margin-bottom:16px;
+}
+
+h1, h2 {
+    font-family:Georgia, "Times New Roman", serif;
+    color:#7C8E3F;
+}
+
 h1 {
     border-bottom:1px solid #92A078;
-    font-family:Georgia, "Times New Roman", serif;
     font-size:40px;
     font-weight:normal;
     text-align:center;
     padding-bottom:8px;
-    margin-bottom:16px;
     text-transform:lowercase;
     a {
         text-decoration:none;
@@ -29,4 +36,8 @@ h1 {
 
 p {
     line-height:24px;
+}
+
+ul {
+    padding-left:16px;
 }
